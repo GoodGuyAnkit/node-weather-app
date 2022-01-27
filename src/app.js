@@ -4,6 +4,7 @@ import { fileURLToPath } from 'url';
 import hbs from 'hbs';
 import geoCode from './utils/geoCode.js';
 import weather from './utils/weather.js';
+import request from 'request';
 
 //little hack to use the __dirname like the old days
 const __filename = fileURLToPath(
